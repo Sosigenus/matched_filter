@@ -1,26 +1,26 @@
-rtl/*
-!rtl/*.sv
-!rtl/*.v
-!rtl/*.vhd
+questasim/rtl/*
+!questasim/rtl/*.sv
+!questasim/rtl/*.v
+!questasim/rtl/*.vhd
 
-tb/*
-!tb/*.sv
-!tb/*.v
-!tb/*vhd
+questasim/tb/*
+!questasim/tb/*.sv
+!questasim/tb/*.v
+!questasim/tb/*vhd
 
-work/
-work/*
+questasim/work/
+questasim/work/*
 
-wlft*
+questasim/wlft*
 
-*.wlf
-*.mti
-*.mpf
-*.opt
-*.ini
+questasim/*.wlf
+questasim/*.mti
+questasim/*.mpf
+questasim/*.opt
+questasim/*.ini
 
-*.log
-*.bak
-*.swp
+questasim/*.log
+questasim/*.bak
+questasim/*.swp
 
 

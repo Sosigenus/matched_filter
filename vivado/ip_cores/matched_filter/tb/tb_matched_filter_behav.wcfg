@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_matched_filter_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_matched_filter" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,002.667 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,982.668 ns"></ZoomEndTime>
+      <Cursor1Time time="1,532.667 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="125"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="68" />
+   <wvobject fp_name="/tb_matched_filter/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/din" type="array">
+      <obj_property name="ElementShortName">din[1:0]</obj_property>
+      <obj_property name="ObjectShortName">din[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/din_valid" type="logic">
+      <obj_property name="ElementShortName">din_valid</obj_property>
+      <obj_property name="ObjectShortName">din_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/dout" type="array">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/dout_valid" type="logic">
+      <obj_property name="ElementShortName">dout_valid</obj_property>
+      <obj_property name="ObjectShortName">dout_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/coef" type="array">
+      <obj_property name="ElementShortName">coef[31:0]</obj_property>
+      <obj_property name="ObjectShortName">coef[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/coef" type="array">
+      <obj_property name="ElementShortName">coef[0:15][1:0]</obj_property>
+      <obj_property name="ObjectShortName">coef[0:15][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/acc" type="array">
+      <obj_property name="ElementShortName">acc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/expected" type="array">
+      <obj_property name="ElementShortName">expected[7:0]</obj_property>
+      <obj_property name="ObjectShortName">expected[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/gold" type="array">
+      <obj_property name="ElementShortName">gold[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gold[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider790">
+      <obj_property name="label">dut_matched_filter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/coef_reg" type="array">
+      <obj_property name="ElementShortName">coef_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">coef_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/din" type="array">
+      <obj_property name="ElementShortName">din[1:0]</obj_property>
+      <obj_property name="ObjectShortName">din[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/din_valid" type="logic">
+      <obj_property name="ElementShortName">din_valid</obj_property>
+      <obj_property name="ObjectShortName">din_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/dout" type="array">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/expected" type="array">
+      <obj_property name="ElementShortName">expected[7:0]</obj_property>
+      <obj_property name="ObjectShortName">expected[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/dout_valid" type="logic">
+      <obj_property name="ElementShortName">dout_valid</obj_property>
+      <obj_property name="ObjectShortName">dout_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/reg_wr" type="logic">
+      <obj_property name="ElementShortName">reg_wr</obj_property>
+      <obj_property name="ObjectShortName">reg_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/reg_rd" type="logic">
+      <obj_property name="ElementShortName">reg_rd</obj_property>
+      <obj_property name="ObjectShortName">reg_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/reg_wr_addr" type="array">
+      <obj_property name="ElementShortName">reg_wr_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_wr_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/reg_rd_addr" type="array">
+      <obj_property name="ElementShortName">reg_rd_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_rd_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/reg_rd_data" type="array">
+      <obj_property name="ElementShortName">reg_rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/coef" type="array">
+      <obj_property name="ElementShortName">coef[0:15][1:0]</obj_property>
+      <obj_property name="ObjectShortName">coef[0:15][1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/SW_RST" type="logic">
+      <obj_property name="ElementShortName">SW_RST</obj_property>
+      <obj_property name="ObjectShortName">SW_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/din_translate" type="array">
+      <obj_property name="ElementShortName">din_translate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">din_translate[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/delay" type="array">
+      <obj_property name="ElementShortName">delay[0:15][1:0]</obj_property>
+      <obj_property name="ObjectShortName">delay[0:15][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/prod" type="array">
+      <obj_property name="ElementShortName">prod[0:15][3:0]</obj_property>
+      <obj_property name="ObjectShortName">prod[0:15][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/sum_stage" type="array">
+      <obj_property name="ElementShortName">sum_stage[0:4][0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_stage[0:4][0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/valid_pipe" type="array">
+      <obj_property name="ElementShortName">valid_pipe[6:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_pipe[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/S_AXI_DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">S_AXI_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/S_AXI_ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">S_AXI_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/AMOUNT_COEF" type="array">
+      <obj_property name="ElementShortName">AMOUNT_COEF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AMOUNT_COEF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/STAGES" type="array">
+      <obj_property name="ElementShortName">STAGES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STAGES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/\TREE_STAGE[0].ELEMS " type="array">
+      <obj_property name="ElementShortName">\TREE_STAGE[0].ELEMS [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\TREE_STAGE[0].ELEMS [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/\TREE_STAGE[1].ELEMS " type="array">
+      <obj_property name="ElementShortName">\TREE_STAGE[1].ELEMS [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\TREE_STAGE[1].ELEMS [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/\TREE_STAGE[2].ELEMS " type="array">
+      <obj_property name="ElementShortName">\TREE_STAGE[2].ELEMS [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\TREE_STAGE[2].ELEMS [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/\TREE_STAGE[3].ELEMS " type="array">
+      <obj_property name="ElementShortName">\TREE_STAGE[3].ELEMS [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\TREE_STAGE[3].ELEMS [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/mtd_filter_inst/LATENCY" type="array">
+      <obj_property name="ElementShortName">LATENCY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LATENCY[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider769">
+      <obj_property name="label">bfm</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/awaddr" type="array">
+      <obj_property name="ElementShortName">awaddr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/awprot" type="array">
+      <obj_property name="ElementShortName">awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/awvalid" type="logic">
+      <obj_property name="ElementShortName">awvalid</obj_property>
+      <obj_property name="ObjectShortName">awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/awready" type="logic">
+      <obj_property name="ElementShortName">awready</obj_property>
+      <obj_property name="ObjectShortName">awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/wstrb" type="array">
+      <obj_property name="ElementShortName">wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/wvalid" type="logic">
+      <obj_property name="ElementShortName">wvalid</obj_property>
+      <obj_property name="ObjectShortName">wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/wready" type="logic">
+      <obj_property name="ElementShortName">wready</obj_property>
+      <obj_property name="ObjectShortName">wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/bresp" type="array">
+      <obj_property name="ElementShortName">bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/bvalid" type="logic">
+      <obj_property name="ElementShortName">bvalid</obj_property>
+      <obj_property name="ObjectShortName">bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/bready" type="logic">
+      <obj_property name="ElementShortName">bready</obj_property>
+      <obj_property name="ObjectShortName">bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/araddr" type="array">
+      <obj_property name="ElementShortName">araddr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">araddr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/arprot" type="array">
+      <obj_property name="ElementShortName">arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/arvalid" type="logic">
+      <obj_property name="ElementShortName">arvalid</obj_property>
+      <obj_property name="ObjectShortName">arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/arready" type="logic">
+      <obj_property name="ElementShortName">arready</obj_property>
+      <obj_property name="ObjectShortName">arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/rresp" type="array">
+      <obj_property name="ElementShortName">rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/rvalid" type="logic">
+      <obj_property name="ElementShortName">rvalid</obj_property>
+      <obj_property name="ObjectShortName">rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/bfm/bus_if/rready" type="logic">
+      <obj_property name="ElementShortName">rready</obj_property>
+      <obj_property name="ObjectShortName">rready</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider770">
+      <obj_property name="label">parameters</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/SYS_CLK_MHZ" type="other">
+      <obj_property name="ElementShortName">SYS_CLK_MHZ</obj_property>
+      <obj_property name="ObjectShortName">SYS_CLK_MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/PERIOD" type="other">
+      <obj_property name="ElementShortName">PERIOD</obj_property>
+      <obj_property name="ObjectShortName">PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/S_AXI_ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">S_AXI_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/S_AXI_DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">S_AXI_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/AMOUNT_COEF" type="array">
+      <obj_property name="ElementShortName">AMOUNT_COEF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AMOUNT_COEF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matched_filter/ACC_WIDTH" type="array">
+      <obj_property name="ElementShortName">ACC_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC_WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>

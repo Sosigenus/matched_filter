@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_pn_generator_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_pn_generator" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="886.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,363.501 ns"></ZoomEndTime>
+      <Cursor1Time time="984.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="150"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="61" />
+   <wvobject type="divider" fp_name="divider34">
+      <obj_property name="label">pn_generator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/q" type="logic">
+      <obj_property name="ElementShortName">q</obj_property>
+      <obj_property name="ObjectShortName">q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/q_valid" type="logic">
+      <obj_property name="ElementShortName">q_valid</obj_property>
+      <obj_property name="ObjectShortName">q_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/reg_wr" type="logic">
+      <obj_property name="ElementShortName">reg_wr</obj_property>
+      <obj_property name="ObjectShortName">reg_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/reg_rd" type="logic">
+      <obj_property name="ElementShortName">reg_rd</obj_property>
+      <obj_property name="ObjectShortName">reg_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/reg_wr_addr" type="array">
+      <obj_property name="ElementShortName">reg_wr_addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_wr_addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/reg_rd_addr" type="array">
+      <obj_property name="ElementShortName">reg_rd_addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_rd_addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/reg_rd_data" type="array">
+      <obj_property name="ElementShortName">reg_rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/seed_init" type="array">
+      <obj_property name="ElementShortName">seed_init[4:0]</obj_property>
+      <obj_property name="ObjectShortName">seed_init[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/os_init" type="array">
+      <obj_property name="ElementShortName">os_init[3:0]</obj_property>
+      <obj_property name="ObjectShortName">os_init[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/SW_RST" type="logic">
+      <obj_property name="ElementShortName">SW_RST</obj_property>
+      <obj_property name="ObjectShortName">SW_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/shift_register" type="array">
+      <obj_property name="ElementShortName">shift_register[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_register[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/q_reg" type="logic">
+      <obj_property name="ElementShortName">q_reg</obj_property>
+      <obj_property name="ObjectShortName">q_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/over_sampling" type="array">
+      <obj_property name="ElementShortName">over_sampling[3:0]</obj_property>
+      <obj_property name="ObjectShortName">over_sampling[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/xor_sreg" type="logic">
+      <obj_property name="ElementShortName">xor_sreg</obj_property>
+      <obj_property name="ObjectShortName">xor_sreg</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider52">
+      <obj_property name="label">tb_pn_generator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/counter_q" type="array">
+      <obj_property name="ElementShortName">counter_q[4:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_q[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/over_sampling" type="array">
+      <obj_property name="ElementShortName">over_sampling[3:0]</obj_property>
+      <obj_property name="ObjectShortName">over_sampling[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/bfm_read" type="array">
+      <obj_property name="ElementShortName">bfm_read[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bfm_read[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider55">
+      <obj_property name="label">BFM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/bfm/bus_if/awaddr" type="array">
+      <obj_property name="ElementShortName">awaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/bfm/bus_if/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/bfm/bus_if/araddr" type="array">
+      <obj_property name="ElementShortName">araddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">araddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/bfm/bus_if/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/axi4_lite_proc_inst/bus2ip_wr" type="logic">
+      <obj_property name="ElementShortName">bus2ip_wr</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/axi4_lite_proc_inst/bus2ip_awaddr" type="array">
+      <obj_property name="ElementShortName">bus2ip_awaddr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_awaddr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/axi4_lite_proc_inst/bus2ip_rd" type="logic">
+      <obj_property name="ElementShortName">bus2ip_rd</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/axi4_lite_proc_inst/bus2ip_araddr" type="array">
+      <obj_property name="ElementShortName">bus2ip_araddr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_araddr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/axi4_lite_proc_inst/bus2ip_rdata" type="array">
+      <obj_property name="ElementShortName">bus2ip_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/axi4_lite_proc_inst/wr_state" type="array">
+      <obj_property name="ElementShortName">wr_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/axi4_lite_proc_inst/rd_state" type="array">
+      <obj_property name="ElementShortName">rd_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider13">
+      <obj_property name="label">parameters</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/SYS_CLK_MHZ" type="other">
+      <obj_property name="ElementShortName">SYS_CLK_MHZ</obj_property>
+      <obj_property name="ObjectShortName">SYS_CLK_MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/OS" type="array">
+      <obj_property name="ElementShortName">OS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/S_AXI_ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">S_AXI_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/S_AXI_DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">S_AXI_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/PERIOD" type="other">
+      <obj_property name="ElementShortName">PERIOD</obj_property>
+      <obj_property name="ObjectShortName">PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/WIDTH_OS" type="array">
+      <obj_property name="ElementShortName">WIDTH_OS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH_OS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider14">
+      <obj_property name="label">S_AXI_LITE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/awaddr" type="array">
+      <obj_property name="ElementShortName">awaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/awprot" type="array">
+      <obj_property name="ElementShortName">awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/awvalid" type="logic">
+      <obj_property name="ElementShortName">awvalid</obj_property>
+      <obj_property name="ObjectShortName">awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/awready" type="logic">
+      <obj_property name="ElementShortName">awready</obj_property>
+      <obj_property name="ObjectShortName">awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/wstrb" type="array">
+      <obj_property name="ElementShortName">wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/wvalid" type="logic">
+      <obj_property name="ElementShortName">wvalid</obj_property>
+      <obj_property name="ObjectShortName">wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/wready" type="logic">
+      <obj_property name="ElementShortName">wready</obj_property>
+      <obj_property name="ObjectShortName">wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/bresp" type="array">
+      <obj_property name="ElementShortName">bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/bvalid" type="logic">
+      <obj_property name="ElementShortName">bvalid</obj_property>
+      <obj_property name="ObjectShortName">bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/bready" type="logic">
+      <obj_property name="ElementShortName">bready</obj_property>
+      <obj_property name="ObjectShortName">bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/araddr" type="array">
+      <obj_property name="ElementShortName">araddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">araddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/arprot" type="array">
+      <obj_property name="ElementShortName">arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/arvalid" type="logic">
+      <obj_property name="ElementShortName">arvalid</obj_property>
+      <obj_property name="ObjectShortName">arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/arready" type="logic">
+      <obj_property name="ElementShortName">arready</obj_property>
+      <obj_property name="ObjectShortName">arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/rresp" type="array">
+      <obj_property name="ElementShortName">rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/rvalid" type="logic">
+      <obj_property name="ElementShortName">rvalid</obj_property>
+      <obj_property name="ObjectShortName">rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pn_generator/dut/s_axi/rready" type="logic">
+      <obj_property name="ElementShortName">rready</obj_property>
+      <obj_property name="ObjectShortName">rready</obj_property>
+   </wvobject>
+</wave_config>
